@@ -1,7 +1,7 @@
 # Problem #1:
 
 Given an array A of n distinct integer elements with the following property:
-· The first k elements (0 < k < n-1) are in strictly increasing sequence followed by the
+The first k elements (0 < k < n-1) are in strictly increasing sequence followed by the
 strictly decreasing sequence.
 
 Example:
@@ -18,7 +18,7 @@ determines whether a given integer is in the array.
 
 The balance index of an array of integers is an index such that the sum of elements at lower
 indexes is equal to the sum of elements at higher indexes. The formal definition is:
-· The integer k is an balance index of a sequence of integers S[0]; S[1];...; S[n-1] if
+The integer k is an balance index of a sequence of integers S[0]; S[1];...; S[n-1] if
 and only if 0 <= k and (SUM from i=0 to k-1) S[i] = (SUM from i=k+1 to n-1) S[i]. Assume the sum 
 of zero elements is equal to zero.
 
