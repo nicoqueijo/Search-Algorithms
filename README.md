@@ -23,10 +23,15 @@ and only if 0 <= k and (SUM from i=0 to k-1) S[i] = (SUM from i=k+1 to n-1) S[i]
 of zero elements is equal to zero.
 
 For example, in a sequence S:
+
 	S[0] = -5; S[1] =3; S[2] = 7; S[3] = -8; S[4] = -2; S[5]= 5; S[6] =2
+	
 3 is a balance index, because:
+
 		S[0]+S[1]+S[2] = S[4]+S[5]+S[6]
+		
 6 is also a balance index, because:
+
 		S[0]+S[1]+S[2]+S[3]+S[4]+S[5]=0
 		
 And the sum of zero elements is zero.
